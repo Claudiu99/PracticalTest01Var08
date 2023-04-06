@@ -33,8 +33,8 @@ public class PracticalTest01Var08MainActivity extends AppCompatActivity {
                 String Answer = AnswerText.getText().toString();
                 if (Riddle != null && Answer != null) {
                     Intent intent = new Intent(getApplicationContext(), PracticalTest01Var02PlayActivity.class);
-                    intent.putExtra("riddle", Riddle);
-                    intent.putExtra("answer", Answer);
+                    intent.putExtra("Riddle", Riddle);
+                    intent.putExtra("Answer", Answer);
                     startActivityForResult(intent, 1);
                 }
             }

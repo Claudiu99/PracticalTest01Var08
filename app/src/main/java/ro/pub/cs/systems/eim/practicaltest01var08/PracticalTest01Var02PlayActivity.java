@@ -43,7 +43,7 @@ public class PracticalTest01Var02PlayActivity extends AppCompatActivity {
                     if (myAnswer.equals(answer)) {
                         Toast.makeText(getApplicationContext(), "Answer correct", Toast.LENGTH_LONG).show();
                     } else {
-                        Toast.makeText(getApplicationContext(), "Answer incorrect!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Answer NOT correct", Toast.LENGTH_LONG).show();
                     }
                 }
             }
