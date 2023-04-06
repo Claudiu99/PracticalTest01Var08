@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PracticalTest01Var08MainActivity">
+    tools:context=".PracticalTest01Var02PlayActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,11 +17,10 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/edittext1"
+                android:id="@+id/check_riddle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:saveEnabled="false"
-                android:hint="Riddle"/>
+                android:layout_height="48dp"
+                android:editable="false"/>
 
         </LinearLayout>
 
@@ -31,20 +30,28 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/edittext2"
+                android:id="@+id/edittextplay"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:saveEnabled="false"
-                android:hint="Answer" />
+                android:hint="edit" />
 
         </LinearLayout>
 
         <Button
-            android:id="@+id/playbutton"
+            android:id="@+id/checkbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Play" />
+            android:text="Check" />
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Back" />
+
+
 
     </LinearLayout>
 
